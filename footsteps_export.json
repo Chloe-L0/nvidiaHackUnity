@@ -1,0 +1,3755 @@
+{
+    "footsteps": [
+        {
+            "position": {
+                "x": 658.7403564453125,
+                "y": 60.08333206176758,
+                "z": -749.7999877929688
+            },
+            "timestamp": 0.0,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 657.687255859375,
+                "y": 60.08333206176758,
+                "z": -749.955810546875
+            },
+            "timestamp": 0.5007429122924805,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 654.6286010742188,
+                "y": 60.08333206176758,
+                "z": -750.4266357421875
+            },
+            "timestamp": 1.0029263496398926,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 649.697509765625,
+                "y": 60.08333206176758,
+                "z": -751.1914672851563
+            },
+            "timestamp": 1.5042353868484498,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 642.759033203125,
+                "y": 60.08333206176758,
+                "z": -752.2720336914063
+            },
+            "timestamp": 2.0058112144470217,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 635.3229370117188,
+                "y": 60.08333206176758,
+                "z": -753.4310302734375
+            },
+            "timestamp": 2.507551670074463,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 627.9022216796875,
+                "y": 60.08333206176758,
+                "z": -754.5869750976563
+            },
+            "timestamp": 3.0082154273986818,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 620.4235229492188,
+                "y": 60.08333206176758,
+                "z": -755.7518920898438
+            },
+            "timestamp": 3.5127737522125246,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 613.0083618164063,
+                "y": 60.08333206176758,
+                "z": -756.9068603515625
+            },
+            "timestamp": 4.01307487487793,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 605.5742797851563,
+                "y": 60.08333206176758,
+                "z": -758.0650634765625
+            },
+            "timestamp": 4.514656066894531,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 598.1531372070313,
+                "y": 60.08333206176758,
+                "z": -759.2207641601563
+            },
+            "timestamp": 5.015374660491943,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 590.7261962890625,
+                "y": 60.08333206176758,
+                "z": -760.3775634765625
+            },
+            "timestamp": 5.516475200653076,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 583.2984008789063,
+                "y": 60.08333206176758,
+                "z": -761.53466796875
+            },
+            "timestamp": 6.017622470855713,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 575.8494262695313,
+                "y": 60.08333206176758,
+                "z": -762.6948852539063
+            },
+            "timestamp": 6.520211696624756,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 568.3982543945313,
+                "y": 60.08333206176758,
+                "z": -763.8556518554688
+            },
+            "timestamp": 7.022958755493164,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 560.9473876953125,
+                "y": 60.08333206176758,
+                "z": -765.0165405273438
+            },
+            "timestamp": 7.525681972503662,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 553.53662109375,
+                "y": 60.08333206176758,
+                "z": -766.1708984375
+            },
+            "timestamp": 8.025700569152832,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 546.0843505859375,
+                "y": 60.08333206176758,
+                "z": -767.3317260742188
+            },
+            "timestamp": 8.52850341796875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 538.643310546875,
+                "y": 60.08333206176758,
+                "z": -768.4906616210938
+            },
+            "timestamp": 9.03055477142334,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 531.1961059570313,
+                "y": 60.08333206176758,
+                "z": -769.6510620117188
+            },
+            "timestamp": 9.533034324645996,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 523.773681640625,
+                "y": 60.08333206176758,
+                "z": -770.8070678710938
+            },
+            "timestamp": 10.033834457397461,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 516.3587036132813,
+                "y": 60.08333206176758,
+                "z": -771.9619140625
+            },
+            "timestamp": 10.534127235412598,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 508.846435546875,
+                "y": 60.08333206176758,
+                "z": -773.1321411132813
+            },
+            "timestamp": 11.041007041931153,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 501.4045715332031,
+                "y": 60.08333206176758,
+                "z": -774.2916259765625
+            },
+            "timestamp": 11.543115615844727,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 493.9551696777344,
+                "y": 60.08333206176758,
+                "z": -775.4522705078125
+            },
+            "timestamp": 12.045740127563477,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 486.500732421875,
+                "y": 60.08333206176758,
+                "z": -776.6133422851563
+            },
+            "timestamp": 12.548689842224121,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 479.0851135253906,
+                "y": 60.08333206176758,
+                "z": -777.7685546875
+            },
+            "timestamp": 13.04902458190918,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 471.62078857421877,
+                "y": 60.08333206176758,
+                "z": -778.931396484375
+            },
+            "timestamp": 13.552656173706055,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 464.186767578125,
+                "y": 60.08333206176758,
+                "z": -780.0895385742188
+            },
+            "timestamp": 14.054237365722657,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 456.7255554199219,
+                "y": 60.08333206176758,
+                "z": -781.2514038085938
+            },
+            "timestamp": 14.557661056518555,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 449.2644348144531,
+                "y": 60.08333206176758,
+                "z": -782.4136352539063
+            },
+            "timestamp": 15.061063766479493,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 441.79937744140627,
+                "y": 60.08333206176758,
+                "z": -783.5768432617188
+            },
+            "timestamp": 15.564739227294922,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 434.3466491699219,
+                "y": 60.08333206176758,
+                "z": -784.7376098632813
+            },
+            "timestamp": 16.06757926940918,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 426.90753173828127,
+                "y": 60.08333206176758,
+                "z": -785.896484375
+            },
+            "timestamp": 16.569488525390626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 419.46331787109377,
+                "y": 60.08333206176758,
+                "z": -787.0564575195313
+            },
+            "timestamp": 17.071752548217775,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 412.0291748046875,
+                "y": 60.08333206176758,
+                "z": -788.2146606445313
+            },
+            "timestamp": 17.573341369628908,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 404.5888671875,
+                "y": 60.08333206176758,
+                "z": -789.3736572265625
+            },
+            "timestamp": 18.075355529785158,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 397.1295471191406,
+                "y": 60.08333206176758,
+                "z": -790.5353393554688
+            },
+            "timestamp": 18.57862663269043,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 389.68695068359377,
+                "y": 60.08333206176758,
+                "z": -791.6943969726563
+            },
+            "timestamp": 19.080785751342775,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 382.2376708984375,
+                "y": 60.08333206176758,
+                "z": -792.8550415039063
+            },
+            "timestamp": 19.583391189575197,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 374.79541015625,
+                "y": 60.08333206176758,
+                "z": -794.0144653320313
+            },
+            "timestamp": 20.085527420043947,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 367.3740234375,
+                "y": 60.08333206176758,
+                "z": -795.1704711914063
+            },
+            "timestamp": 20.586257934570314,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 359.9222717285156,
+                "y": 60.08333206176758,
+                "z": -796.3314819335938
+            },
+            "timestamp": 21.089031219482423,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 352.4772033691406,
+                "y": 60.08333206176758,
+                "z": -797.4913940429688
+            },
+            "timestamp": 21.59134864807129,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 345.0409851074219,
+                "y": 60.08333206176758,
+                "z": -798.6493530273438
+            },
+            "timestamp": 22.093069076538087,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 337.588623046875,
+                "y": 60.08333206176758,
+                "z": -799.8104248046875
+            },
+            "timestamp": 22.59589385986328,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 330.1437683105469,
+                "y": 60.08333206176758,
+                "z": -800.9702758789063
+            },
+            "timestamp": 23.09821128845215,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 322.7217102050781,
+                "y": 60.08333206176758,
+                "z": -802.1264038085938
+            },
+            "timestamp": 23.598970413208009,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 315.258056640625,
+                "y": 60.08333206176758,
+                "z": -803.2889404296875
+            },
+            "timestamp": 24.102540969848634,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 307.7996520996094,
+                "y": 60.08333206176758,
+                "z": -804.4507446289063
+            },
+            "timestamp": 24.605772018432618,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 300.3425598144531,
+                "y": 60.08333206176758,
+                "z": -805.6122436523438
+            },
+            "timestamp": 25.108909606933595,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 292.9032897949219,
+                "y": 60.08333206176758,
+                "z": -806.7713012695313
+            },
+            "timestamp": 25.610836029052736,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 285.4359130859375,
+                "y": 60.08333206176758,
+                "z": -807.9349365234375
+            },
+            "timestamp": 26.114669799804689,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 277.9896240234375,
+                "y": 60.08333206176758,
+                "z": -809.0946655273438
+            },
+            "timestamp": 26.617074966430665,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 270.56634521484377,
+                "y": 60.08333206176758,
+                "z": -810.2515258789063
+            },
+            "timestamp": 27.11792755126953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 263.071044921875,
+                "y": 60.08333206176758,
+                "z": -811.4190063476563
+            },
+            "timestamp": 27.623647689819337,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 255.60519409179688,
+                "y": 60.08333206176758,
+                "z": -812.58203125
+            },
+            "timestamp": 28.12737464904785,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 248.1562042236328,
+                "y": 60.08333206176758,
+                "z": -813.7423095703125
+            },
+            "timestamp": 28.62995719909668,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 240.73721313476563,
+                "y": 60.08333206176758,
+                "z": -814.89794921875
+            },
+            "timestamp": 29.13051986694336,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 233.27059936523438,
+                "y": 60.08333206176758,
+                "z": -816.0609741210938
+            },
+            "timestamp": 29.634302139282228,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 225.8172149658203,
+                "y": 60.08333206176758,
+                "z": -817.2216186523438
+            },
+            "timestamp": 30.137189865112306,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 218.3685760498047,
+                "y": 60.08333206176758,
+                "z": -818.3816528320313
+            },
+            "timestamp": 30.639751434326173,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 210.95277404785157,
+                "y": 60.08333206176758,
+                "z": -819.53662109375
+            },
+            "timestamp": 31.140098571777345,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 203.49440002441407,
+                "y": 60.08333206176758,
+                "z": -820.6983642578125
+            },
+            "timestamp": 31.64331817626953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 196.0428466796875,
+                "y": 60.08333206176758,
+                "z": -821.8590698242188
+            },
+            "timestamp": 32.146087646484378,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 188.50990295410157,
+                "y": 60.08333206176758,
+                "z": -823.0326538085938
+            },
+            "timestamp": 32.654335021972659,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 181.09181213378907,
+                "y": 60.08333206176758,
+                "z": -824.188232421875
+            },
+            "timestamp": 33.15483856201172,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 173.66290283203126,
+                "y": 60.1239013671875,
+                "z": -825.3452758789063
+            },
+            "timestamp": 33.65607452392578,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 166.2112579345703,
+                "y": 60.127323150634769,
+                "z": -826.50634765625
+            },
+            "timestamp": 34.15884017944336,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 159.15223693847657,
+                "y": 60.130401611328128,
+                "z": -827.6060180664063
+            },
+            "timestamp": 34.66191864013672,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 153.0458221435547,
+                "y": 60.133094787597659,
+                "z": -828.5576171875
+            },
+            "timestamp": 35.16346740722656,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 147.8554229736328,
+                "y": 60.13536834716797,
+                "z": -829.3662109375
+            },
+            "timestamp": 35.666778564453128,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 143.60398864746095,
+                "y": 60.13722610473633,
+                "z": -830.0281372070313
+            },
+            "timestamp": 36.17013931274414,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 140.2996368408203,
+                "y": 60.138675689697269,
+                "z": -830.5429077148438
+            },
+            "timestamp": 36.67229461669922,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 137.92982482910157,
+                "y": 60.13970947265625,
+                "z": -830.9117431640625
+            },
+            "timestamp": 37.17491149902344,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.4989776611328,
+                "y": 60.14032745361328,
+                "z": -831.1345825195313
+            },
+            "timestamp": 37.67778396606445,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 38.18081283569336,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 38.68330383300781,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 39.18630599975586,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 39.689754486083987,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 40.19050979614258,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 40.69099807739258,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 41.19197463989258,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 41.693031311035159,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 42.193382263183597,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01527404785157,
+                "y": 60.14053726196289,
+                "z": -831.2100219726563
+            },
+            "timestamp": 42.697757720947269,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 136.01422119140626,
+                "y": 60.140533447265628,
+                "z": -831.2086181640625
+            },
+            "timestamp": 43.198246002197269,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 135.4152069091797,
+                "y": 60.137943267822269,
+                "z": -830.2881469726563
+            },
+            "timestamp": 43.7016716003418,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 133.7151641845703,
+                "y": 60.13058853149414,
+                "z": -827.669921875
+            },
+            "timestamp": 44.204647064208987,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 130.91769409179688,
+                "y": 60.11846923828125,
+                "z": -823.35888671875
+            },
+            "timestamp": 44.707130432128909,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 127.08500671386719,
+                "y": 60.101924896240237,
+                "z": -817.4510498046875
+            },
+            "timestamp": 45.2083854675293,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 122.9876480102539,
+                "y": 60.08413314819336,
+                "z": -811.1343383789063
+            },
+            "timestamp": 45.710330963134769,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 118.89917755126953,
+                "y": 60.08333206176758,
+                "z": -804.8316650390625
+            },
+            "timestamp": 46.2111701965332,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 114.79695892333985,
+                "y": 60.08333206176758,
+                "z": -798.5078125
+            },
+            "timestamp": 46.71369171142578,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 110.70281982421875,
+                "y": 60.08333206176758,
+                "z": -792.1964721679688
+            },
+            "timestamp": 47.21522521972656,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 106.59586334228516,
+                "y": 60.08333206176758,
+                "z": -785.8653564453125
+            },
+            "timestamp": 47.718326568603519,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 102.49336242675781,
+                "y": 60.08333206176758,
+                "z": -779.541259765625
+            },
+            "timestamp": 48.22088623046875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 98.40178680419922,
+                "y": 60.08333206176758,
+                "z": -773.2337036132813
+            },
+            "timestamp": 48.722110748291019,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 94.29505157470703,
+                "y": 60.08333206176758,
+                "z": -766.902587890625
+            },
+            "timestamp": 49.225189208984378,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 90.19192504882813,
+                "y": 60.08333206176758,
+                "z": -760.5774536132813
+            },
+            "timestamp": 49.72782516479492,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 86.08419036865235,
+                "y": 60.08333206176758,
+                "z": -754.2451782226563
+            },
+            "timestamp": 50.23102569580078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 82.00231170654297,
+                "y": 60.08333206176758,
+                "z": -747.9527587890625
+            },
+            "timestamp": 50.73106384277344,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 77.89716339111328,
+                "y": 60.08333206176758,
+                "z": -741.6240844726563
+            },
+            "timestamp": 51.233943939208987,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 73.80879211425781,
+                "y": 60.08333206176758,
+                "z": -735.3218994140625
+            },
+            "timestamp": 51.734771728515628,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 69.70989227294922,
+                "y": 60.08333206176758,
+                "z": -729.0031127929688
+            },
+            "timestamp": 52.23688888549805,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 65.62600708007813,
+                "y": 60.08333206176758,
+                "z": -722.7076416015625
+            },
+            "timestamp": 52.7371711730957,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 61.52873229980469,
+                "y": 60.08333206176758,
+                "z": -716.3914184570313
+            },
+            "timestamp": 53.239097595214847,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 57.44290542602539,
+                "y": 60.08333206176758,
+                "z": -710.0928955078125
+            },
+            "timestamp": 53.73961639404297,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 53.334014892578128,
+                "y": 60.08333206176758,
+                "z": -703.758544921875
+            },
+            "timestamp": 54.24296188354492,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 49.239139556884769,
+                "y": 60.08333206176758,
+                "z": -697.4457397460938
+            },
+            "timestamp": 54.744590759277347,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 45.13526153564453,
+                "y": 60.08333206176758,
+                "z": -691.1195068359375
+            },
+            "timestamp": 55.247314453125,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 41.03501892089844,
+                "y": 60.08333206176758,
+                "z": -684.7987060546875
+            },
+            "timestamp": 55.74960708618164,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 36.70315933227539,
+                "y": 60.08333206176758,
+                "z": -678.8841552734375
+            },
+            "timestamp": 56.25252151489258,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 31.46364974975586,
+                "y": 60.08333206176758,
+                "z": -674.66357421875
+            },
+            "timestamp": 56.754974365234378,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 25.257265090942384,
+                "y": 60.08333206176758,
+                "z": -672.2211303710938
+            },
+            "timestamp": 57.25851821899414,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 18.06313705444336,
+                "y": 60.08333206176758,
+                "z": -671.5650024414063
+            },
+            "timestamp": 57.76478958129883,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 10.558877944946289,
+                "y": 60.08333206176758,
+                "z": -671.664794921875
+            },
+            "timestamp": 58.26511764526367,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": 3.056032180786133,
+                "y": 60.08333206176758,
+                "z": -671.7640380859375
+            },
+            "timestamp": 58.76535415649414,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -4.494415283203125,
+                "y": 60.08333206176758,
+                "z": -671.8634033203125
+            },
+            "timestamp": 59.268760681152347,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -12.036067962646485,
+                "y": 60.08333206176758,
+                "z": -671.9624633789063
+            },
+            "timestamp": 59.771583557128909,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -19.551279067993165,
+                "y": 60.08333206176758,
+                "z": -672.0612182617188
+            },
+            "timestamp": 60.272640228271487,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -27.073453903198243,
+                "y": 60.08333206176758,
+                "z": -672.1602172851563
+            },
+            "timestamp": 60.77416229248047,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -34.620323181152347,
+                "y": 60.08333206176758,
+                "z": -672.2596435546875
+            },
+            "timestamp": 61.2773323059082,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -42.14072799682617,
+                "y": 60.08333206176758,
+                "z": -672.3587646484375
+            },
+            "timestamp": 61.77873611450195,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -49.6662483215332,
+                "y": 60.08333206176758,
+                "z": -672.4581298828125
+            },
+            "timestamp": 62.28048324584961,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -57.2044677734375,
+                "y": 60.08333206176758,
+                "z": -672.5574340820313
+            },
+            "timestamp": 62.783077239990237,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -64.75556182861328,
+                "y": 60.08333206176758,
+                "z": -672.6569213867188
+            },
+            "timestamp": 63.28652572631836,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -72.26580810546875,
+                "y": 60.08333206176758,
+                "z": -672.7559814453125
+            },
+            "timestamp": 63.787254333496097,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -79.76789093017578,
+                "y": 60.08333206176758,
+                "z": -672.8548583984375
+            },
+            "timestamp": 64.28743743896485,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -87.28617858886719,
+                "y": 60.08333206176758,
+                "z": -672.9539184570313
+            },
+            "timestamp": 64.78870391845703,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -94.81832122802735,
+                "y": 60.08333206176758,
+                "z": -673.0535278320313
+            },
+            "timestamp": 65.29088592529297,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -102.36614990234375,
+                "y": 60.08333206176758,
+                "z": -673.1535034179688
+            },
+            "timestamp": 65.79412078857422,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -109.8913803100586,
+                "y": 60.08333206176758,
+                "z": -673.2529907226563
+            },
+            "timestamp": 66.29584503173828,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -117.41739654541016,
+                "y": 60.08333206176758,
+                "z": -673.3521118164063
+            },
+            "timestamp": 66.7976303100586,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -124.9748764038086,
+                "y": 60.08333206176758,
+                "z": -673.4518432617188
+            },
+            "timestamp": 67.30150604248047,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -132.5181427001953,
+                "y": 60.08333206176758,
+                "z": -673.5515747070313
+            },
+            "timestamp": 67.80443572998047,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -140.058837890625,
+                "y": 60.08333206176758,
+                "z": -673.6510009765625
+            },
+            "timestamp": 68.30719757080078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -147.5768280029297,
+                "y": 60.08333206176758,
+                "z": -673.7503662109375
+            },
+            "timestamp": 68.80844116210938,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -155.09146118164063,
+                "y": 60.08333206176758,
+                "z": -673.849853515625
+            },
+            "timestamp": 69.30946350097656,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -162.5925750732422,
+                "y": 60.08333206176758,
+                "z": -673.9494018554688
+            },
+            "timestamp": 69.80957794189453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -170.1022491455078,
+                "y": 60.08333206176758,
+                "z": -674.0491333007813
+            },
+            "timestamp": 70.31027221679688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -177.62374877929688,
+                "y": 60.08333206176758,
+                "z": -674.1490478515625
+            },
+            "timestamp": 70.8117446899414,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -185.1730194091797,
+                "y": 60.08333206176758,
+                "z": -674.2490234375
+            },
+            "timestamp": 71.31507110595703,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -192.70640563964845,
+                "y": 60.08333206176758,
+                "z": -674.3489990234375
+            },
+            "timestamp": 71.81733703613281,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -200.22366333007813,
+                "y": 60.08333206176758,
+                "z": -674.448486328125
+            },
+            "timestamp": 72.31852722167969,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -207.759521484375,
+                "y": 60.08333206176758,
+                "z": -674.5484619140625
+            },
+            "timestamp": 72.82096099853516,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -215.2939910888672,
+                "y": 60.08333206176758,
+                "z": -674.6485595703125
+            },
+            "timestamp": 73.32331085205078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -222.93289184570313,
+                "y": 60.08333206176758,
+                "z": -674.7498779296875
+            },
+            "timestamp": 73.83261108398438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -230.44981384277345,
+                "y": 60.08333206176758,
+                "z": -674.8497314453125
+            },
+            "timestamp": 74.33378601074219,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -237.95774841308595,
+                "y": 60.08333206176758,
+                "z": -674.9492797851563
+            },
+            "timestamp": 74.8343505859375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -245.510498046875,
+                "y": 60.08333206176758,
+                "z": -675.049560546875
+            },
+            "timestamp": 75.3379135131836,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -253.04466247558595,
+                "y": 60.08333206176758,
+                "z": -675.149658203125
+            },
+            "timestamp": 75.8402328491211,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -260.58343505859377,
+                "y": 60.08333206176758,
+                "z": -675.24951171875
+            },
+            "timestamp": 76.34286499023438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -268.1190490722656,
+                "y": 60.08333206176758,
+                "z": -675.3492431640625
+            },
+            "timestamp": 76.84529113769531,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -275.6242980957031,
+                "y": 60.08333206176758,
+                "z": -675.4488525390625
+            },
+            "timestamp": 77.3456802368164,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -283.18231201171877,
+                "y": 60.08333206176758,
+                "z": -675.5494384765625
+            },
+            "timestamp": 77.84959411621094,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -290.71466064453127,
+                "y": 60.08333206176758,
+                "z": -675.6493530273438
+            },
+            "timestamp": 78.35179138183594,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -298.2705078125,
+                "y": 60.08333206176758,
+                "z": -675.7498168945313
+            },
+            "timestamp": 78.85556030273438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -305.8018493652344,
+                "y": 60.08333206176758,
+                "z": -675.8497314453125
+            },
+            "timestamp": 79.35769653320313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -313.3122253417969,
+                "y": 60.08333206176758,
+                "z": -675.9492797851563
+            },
+            "timestamp": 79.85842895507813,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -320.8977966308594,
+                "y": 60.08333206176758,
+                "z": -676.0499877929688
+            },
+            "timestamp": 80.36418151855469,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -328.44329833984377,
+                "y": 60.08333206176758,
+                "z": -676.150146484375
+            },
+            "timestamp": 80.86725616455078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -335.99346923828127,
+                "y": 60.08333206176758,
+                "z": -676.2503662109375
+            },
+            "timestamp": 81.37065124511719,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -343.63775634765627,
+                "y": 60.08333206176758,
+                "z": -676.3521118164063
+            },
+            "timestamp": 81.88032531738281,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -351.1431579589844,
+                "y": 60.08333206176758,
+                "z": -676.4520874023438
+            },
+            "timestamp": 82.3807373046875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -358.67474365234377,
+                "y": 60.08333206176758,
+                "z": -676.5517578125
+            },
+            "timestamp": 82.88288879394531,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -366.1746826171875,
+                "y": 60.08333206176758,
+                "z": -676.651123046875
+            },
+            "timestamp": 83.38292694091797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -373.6766052246094,
+                "y": 60.08333206176758,
+                "z": -676.7506103515625
+            },
+            "timestamp": 83.88309478759766,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -381.2406921386719,
+                "y": 60.08333206176758,
+                "z": -676.85107421875
+            },
+            "timestamp": 84.38742065429688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -388.8034362792969,
+                "y": 60.08333206176758,
+                "z": -676.9515380859375
+            },
+            "timestamp": 84.89166259765625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -396.35479736328127,
+                "y": 60.08333206176758,
+                "z": -677.0518188476563
+            },
+            "timestamp": 85.39512634277344,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -403.8586730957031,
+                "y": 60.08333206176758,
+                "z": -677.1515502929688
+            },
+            "timestamp": 85.89544677734375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -411.403564453125,
+                "y": 60.08333206176758,
+                "z": -677.2514038085938
+            },
+            "timestamp": 86.39848327636719,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -418.9233093261719,
+                "y": 60.08333206176758,
+                "z": -677.3514404296875
+            },
+            "timestamp": 86.89985656738281,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -426.4742431640625,
+                "y": 60.08333206176758,
+                "z": -677.4517822265625
+            },
+            "timestamp": 87.4032974243164,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -433.9913024902344,
+                "y": 60.08333206176758,
+                "z": -677.5520629882813
+            },
+            "timestamp": 87.90447998046875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -441.5505676269531,
+                "y": 60.08333206176758,
+                "z": -677.652587890625
+            },
+            "timestamp": 88.4084701538086,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -449.10009765625,
+                "y": 60.08333206176758,
+                "z": -677.753173828125
+            },
+            "timestamp": 88.91181182861328,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -456.6394348144531,
+                "y": 60.08333206176758,
+                "z": -677.8535766601563
+            },
+            "timestamp": 89.41449737548828,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -464.24224853515627,
+                "y": 60.08333206176758,
+                "z": -677.954833984375
+            },
+            "timestamp": 89.92139434814453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -471.7918701171875,
+                "y": 60.08333206176758,
+                "z": -678.0552368164063
+            },
+            "timestamp": 90.42475128173828,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -479.3253479003906,
+                "y": 60.08333206176758,
+                "z": -678.1553344726563
+            },
+            "timestamp": 90.92703247070313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -486.8274841308594,
+                "y": 60.08333206176758,
+                "z": -678.2552490234375
+            },
+            "timestamp": 91.42723846435547,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -494.3844299316406,
+                "y": 60.08333206176758,
+                "z": -678.35546875
+            },
+            "timestamp": 91.93107604980469,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -501.91571044921877,
+                "y": 60.08333206176758,
+                "z": -678.45556640625
+            },
+            "timestamp": 92.43321990966797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -509.4488220214844,
+                "y": 60.08333206176758,
+                "z": -678.5558471679688
+            },
+            "timestamp": 92.93547058105469,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -516.9867553710938,
+                "y": 60.08333206176758,
+                "z": -678.65625
+            },
+            "timestamp": 93.43803405761719,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -524.5029296875,
+                "y": 60.08333206176758,
+                "z": -678.7562866210938
+            },
+            "timestamp": 93.93915557861328,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -532.04052734375,
+                "y": 60.08333206176758,
+                "z": -678.8565063476563
+            },
+            "timestamp": 94.44171142578125,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -539.56103515625,
+                "y": 60.08333206176758,
+                "z": -678.9566040039063
+            },
+            "timestamp": 94.94312286376953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -547.121826171875,
+                "y": 60.08333206176758,
+                "z": -679.05712890625
+            },
+            "timestamp": 95.44723510742188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -554.6500854492188,
+                "y": 60.08333206176758,
+                "z": -679.1572875976563
+            },
+            "timestamp": 95.94915008544922,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -562.1989135742188,
+                "y": 60.08333206176758,
+                "z": -679.2575073242188
+            },
+            "timestamp": 96.45246124267578,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -569.72265625,
+                "y": 60.08333206176758,
+                "z": -679.3570556640625
+            },
+            "timestamp": 96.95406341552735,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -577.28515625,
+                "y": 60.08333206176758,
+                "z": -679.4574584960938
+            },
+            "timestamp": 97.45826721191406,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -584.8905029296875,
+                "y": 60.08333206176758,
+                "z": -679.5582275390625
+            },
+            "timestamp": 97.96533966064453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -592.4494018554688,
+                "y": 60.08333206176758,
+                "z": -679.658447265625
+            },
+            "timestamp": 98.46929931640625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -599.987548828125,
+                "y": 60.08333206176758,
+                "z": -679.7584838867188
+            },
+            "timestamp": 98.97187805175781,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -607.52001953125,
+                "y": 60.08333206176758,
+                "z": -679.859375
+            },
+            "timestamp": 99.47408294677735,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -615.0260009765625,
+                "y": 60.08333206176758,
+                "z": -679.9598388671875
+            },
+            "timestamp": 99.97452545166016,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -622.5852661132813,
+                "y": 60.08333206176758,
+                "z": -680.0611572265625
+            },
+            "timestamp": 100.47852325439453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -630.1307373046875,
+                "y": 60.08333206176758,
+                "z": -680.1625366210938
+            },
+            "timestamp": 100.98159790039063,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -637.656005859375,
+                "y": 60.08333206176758,
+                "z": -680.2621459960938
+            },
+            "timestamp": 101.48333740234375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -645.2134399414063,
+                "y": 60.08333206176758,
+                "z": -680.3623046875
+            },
+            "timestamp": 101.9872055053711,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -652.72314453125,
+                "y": 60.08333206176758,
+                "z": -680.4620971679688
+            },
+            "timestamp": 102.48790740966797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -660.3068237304688,
+                "y": 60.08333206176758,
+                "z": -680.5626831054688
+            },
+            "timestamp": 102.9935302734375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -667.8253784179688,
+                "y": 60.08333206176758,
+                "z": -680.6627807617188
+            },
+            "timestamp": 103.49479675292969,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -675.3257446289063,
+                "y": 60.08333206176758,
+                "z": -680.7620239257813
+            },
+            "timestamp": 103.994873046875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -682.97314453125,
+                "y": 60.08333206176758,
+                "z": -680.8636474609375
+            },
+            "timestamp": 104.5047607421875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -690.52587890625,
+                "y": 60.08333206176758,
+                "z": -680.9642944335938
+            },
+            "timestamp": 105.00830841064453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -698.0787353515625,
+                "y": 60.08333206176758,
+                "z": -681.0651245117188
+            },
+            "timestamp": 105.51187133789063,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -705.6102294921875,
+                "y": 60.08333206176758,
+                "z": -681.164794921875
+            },
+            "timestamp": 106.0140151977539,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -713.1357421875,
+                "y": 60.08333206176758,
+                "z": -681.2651977539063
+            },
+            "timestamp": 106.51578521728516,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -720.6357421875,
+                "y": 60.08333206176758,
+                "z": -681.3651123046875
+            },
+            "timestamp": 107.01579284667969,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -728.1832885742188,
+                "y": 60.08333206176758,
+                "z": -681.4659423828125
+            },
+            "timestamp": 107.51903533935547,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -735.69189453125,
+                "y": 60.08333206176758,
+                "z": -681.566162109375
+            },
+            "timestamp": 108.01963806152344,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -743.198486328125,
+                "y": 60.08333206176758,
+                "z": -681.6660766601563
+            },
+            "timestamp": 108.52011108398438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -750.701904296875,
+                "y": 60.08333206176758,
+                "z": -681.7659301757813
+            },
+            "timestamp": 109.0203857421875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -758.2368774414063,
+                "y": 60.08333206176758,
+                "z": -681.866455078125
+            },
+            "timestamp": 109.52275848388672,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -765.7882080078125,
+                "y": 60.08333206176758,
+                "z": -681.9673461914063
+            },
+            "timestamp": 110.02622985839844,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -773.3203735351563,
+                "y": 60.08333206176758,
+                "z": -682.068115234375
+            },
+            "timestamp": 110.52841186523438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -780.8760375976563,
+                "y": 60.08333206176758,
+                "z": -682.1698608398438
+            },
+            "timestamp": 111.03218078613281,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -788.3783569335938,
+                "y": 60.08333206176758,
+                "z": -682.2703857421875
+            },
+            "timestamp": 111.5323486328125,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -795.93212890625,
+                "y": 60.08333206176758,
+                "z": -682.37158203125
+            },
+            "timestamp": 112.0359878540039,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -803.475341796875,
+                "y": 60.08333206176758,
+                "z": -682.4729614257813
+            },
+            "timestamp": 112.53890991210938,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -811.0895385742188,
+                "y": 60.08333206176758,
+                "z": -682.5750732421875
+            },
+            "timestamp": 113.04656219482422,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -818.627685546875,
+                "y": 60.08333206176758,
+                "z": -682.6761474609375
+            },
+            "timestamp": 113.54914093017578,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -826.1331176757813,
+                "y": 60.08333206176758,
+                "z": -682.77734375
+            },
+            "timestamp": 114.0495376586914,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -833.6358032226563,
+                "y": 60.08365249633789,
+                "z": -682.8785400390625
+            },
+            "timestamp": 114.54977416992188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -840.7648315429688,
+                "y": 60.08470153808594,
+                "z": -682.9752197265625
+            },
+            "timestamp": 115.05064392089844,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -846.9710693359375,
+                "y": 60.08561706542969,
+                "z": -683.0596923828125
+            },
+            "timestamp": 115.55284118652344,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -852.227783203125,
+                "y": 60.08639144897461,
+                "z": -683.1311645507813
+            },
+            "timestamp": 116.05484771728516,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -856.5315551757813,
+                "y": 60.08964538574219,
+                "z": -683.189453125
+            },
+            "timestamp": 116.5560302734375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -859.8897705078125,
+                "y": 60.0881462097168,
+                "z": -683.235107421875
+            },
+            "timestamp": 117.05704498291016,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -862.312744140625,
+                "y": 60.088558197021487,
+                "z": -683.268310546875
+            },
+            "timestamp": 117.56045532226563,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -863.7785034179688,
+                "y": 60.08880615234375,
+                "z": -683.2879638671875
+            },
+            "timestamp": 118.06266021728516,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 118.56675720214844,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 119.07009887695313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 119.57101440429688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 120.07331848144531,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 120.57624053955078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 121.0782241821289,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 121.58056640625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 122.08114624023438,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 122.5844955444336,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 123.0853271484375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 123.58697509765625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 124.08876037597656,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 124.59044647216797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 125.09410095214844,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 125.5967025756836,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 126.0991439819336,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 126.60289001464844,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 127.10569763183594,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 127.60855865478516,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 128.10910034179688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 128.61228942871095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 129.1157989501953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 129.61622619628907,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 130.11817932128907,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 130.62054443359376,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 131.1205596923828,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 131.62368774414063,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 132.1249542236328,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 132.6278533935547,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 133.13043212890626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 133.63088989257813,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 134.13363647460938,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 134.6354522705078,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 135.13941955566407,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 135.6409149169922,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 136.14370727539063,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 136.64459228515626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 137.14463806152345,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 137.64727783203126,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 138.15069580078126,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 138.65426635742188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 139.1546173095703,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 139.65623474121095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 140.1565399169922,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 140.65924072265626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 141.16119384765626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 141.66134643554688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 142.16558837890626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 142.66796875,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 143.17088317871095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 143.6734619140625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 144.17498779296876,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 144.6764373779297,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 145.17738342285157,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 145.67959594726563,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 146.1796112060547,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 146.68212890625,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 147.18218994140626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 147.683349609375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 148.1859893798828,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 148.68775939941407,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 149.18997192382813,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 149.69053649902345,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 150.19146728515626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 150.69195556640626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 151.19326782226563,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 151.69711303710938,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 152.19891357421876,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 152.70115661621095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 153.20233154296876,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 153.7042694091797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 154.20774841308595,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 154.70953369140626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 155.2109375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 155.71319580078126,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 156.2150115966797,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 156.71597290039063,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 157.2177734375,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 157.72018432617188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 158.22091674804688,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 158.72210693359376,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 159.22299194335938,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 159.72361755371095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 160.2236328125,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 160.7240447998047,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 161.2251739501953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 161.7286376953125,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 162.23025512695313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 162.73069763183595,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 163.23379516601563,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 163.73728942871095,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 164.2386932373047,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 164.73977661132813,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 165.24343872070313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 165.74554443359376,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 166.24557495117188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 166.7490997314453,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 167.24996948242188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 167.75306701660157,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 168.25445556640626,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 168.75624084472657,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 169.25701904296876,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 169.7613067626953,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 170.26150512695313,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        },
+        {
+            "position": {
+                "x": -864.2875366210938,
+                "y": 60.08889389038086,
+                "z": -683.2949829101563
+            },
+            "timestamp": 170.76364135742188,
+            "agentType": "patient",
+            "currentRoomID": "hallway",
+            "previousRoomID": ""
+        }
+    ]
+}

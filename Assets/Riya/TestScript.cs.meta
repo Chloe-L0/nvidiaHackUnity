@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 473cae28ad1fcc847a115863d8a02cda
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - patientPrefab: {instanceID: 0}
+  - waitingRoom: {instanceID: 0}
+  - patientRoom: {instanceID: 0}
+  - spawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,92 @@
+#usda 1.0
+(
+    defaultPrim = "Hospital"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Hospital"
+{
+    def Xform "Geometry"
+    {
+        def Cube "Floor"
+        {
+            double size = 1
+            double3 xformOp:scale = (100, 0.1, 100)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            color3f[] primvars:displayColor = [(0.8, 0.8, 0.8)]
+        }
+
+        def Cube "Entrance_0"
+        {
+            double size = 1
+            double3 xformOp:scale = (8, 3, 6)
+            double3 xformOp:translate = (0, 1.5, -20)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            color3f[] primvars:displayColor = [(0.30, 1.00, 1.00)]
+
+            # Hospital Metadata
+            custom string hospital:roomType = "Entrance"
+            custom int hospital:capacity = 50
+            custom string hospital:function = "Main entrance"
+            custom int hospital:roomID = 0
+        }
+
+        def Cube "Waiting_Area_1"
+        {
+            double size = 1
+            double3 xformOp:scale = (12, 3, 10)
+            double3 xformOp:translate = (-10, 1.5, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            color3f[] primvars:displayColor = [(0.30, 0.50, 1.00)]
+
+            # Hospital Metadata
+            custom string hospital:roomType = "Waiting_Area"
+            custom int hospital:capacity = 30
+            custom string hospital:function = "Patient waiting"
+            custom int hospital:roomID = 1
+        }
+
+        def Cube "ER_Room_2"
+        {
+            double size = 1
+            double3 xformOp:scale = (8, 3, 8)
+            double3 xformOp:translate = (15, 1.5, -5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            color3f[] primvars:displayColor = [(1.00, 0.20, 0.20)]
+
+            # Hospital Metadata
+            custom string hospital:roomType = "ER_Room"
+            custom int hospital:capacity = 10
+            custom string hospital:function = "Emergency care"
+            custom int hospital:roomID = 2
+        }
+
+        def Cube "Patient_Room_3"
+        {
+            double size = 1
+            double3 xformOp:scale = (6, 3, 5)
+            double3 xformOp:translate = (-5, 1.5, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            color3f[] primvars:displayColor = [(1.00, 1.00, 0.30)]
+
+            # Hospital Metadata
+            custom string hospital:roomType = "Patient_Room"
+            custom int hospital:capacity = 2
+            custom string hospital:function = "Patient care"
+            custom int hospital:roomID = 3
+        }
+
+    }
+
+    def Xform "NavigationData"
+    {
+        # Spawn points, goals, waypoints will go here
+    }
+
+    def Xform "TrafficData"
+    {
+        # Footsteps and heatmap data will go here
+    }
+}
