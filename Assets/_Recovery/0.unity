@@ -287,9 +287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FloorPlanExtruder
   floorPlan: {fileID: 2800000, guid: 61d6817448924a8419a38eb14c35f1aa, type: 3}
   pixelToWorld: 0.1
-  wallHeight: 100
+  wallHeight: 3
   wallPrefab: {fileID: 249182651659307400}
-  generateOnStart: 1
 --- !u!4 &385002547
 Transform:
   m_ObjectHideFlags: 0
