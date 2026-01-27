@@ -10,7 +10,7 @@ public class StaffAgent : AgentController
     public void Initialize(HospitalRoom[] rooms)
     {
         agentType = "staff";
-        moveSpeed = 20f; // Fast movement
+        moveSpeed = 35f; // Fast movement
         patrolRooms = rooms;
     }
 

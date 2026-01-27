@@ -12,7 +12,7 @@ public class PatientAgent : AgentController
     public void Initialize(HospitalRoom waiting, HospitalRoom patient)
     {
         agentType = "patient";
-        moveSpeed = 15f; // Changed from 0.8 - normal walking speed
+        moveSpeed = 25f; // Changed from 0.8 - normal walking speed
         waitingArea = waiting;
         patientRoom = patient;
     }

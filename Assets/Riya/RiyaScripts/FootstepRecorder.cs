@@ -7,9 +7,9 @@ public struct FootstepData
 {
     public Vector3 position;
     public float timestamp;
-    public string agentType;      // "patient", "emergency", "staff", "visitor"
-    public string currentRoomID;  // Which room they're in/near
-    public string previousRoomID; // Where they came from
+    public string agentType;
+    public string currentRoomID;
+    public string previousRoomID;
 }
 
 [System.Serializable]
@@ -23,7 +23,10 @@ public class FootstepRecorder : MonoBehaviour
     public static FootstepRecorder Instance;
 
     public List<FootstepData> allFootsteps = new List<FootstepData>();
-    public float recordInterval = 0.5f; // Record every 0.5 seconds
+    public float recordInterval = 0.5f;
+
+    [HideInInspector]
+    public List<FootstepData> savedFootsteps = new List<FootstepData>();
 
     void Awake()
     {
@@ -61,8 +64,45 @@ public class FootstepRecorder : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        // Auto-export on quit
         string path = Path.Combine(Application.dataPath, "../footsteps_export.json");
         ExportToJSON(path);
+        SaveFootstepsForExport();
+    }
+
+    [ContextMenu("Save Footsteps for Export")]
+    public void SaveFootstepsForExport()
+    {
+        savedFootsteps = new List<FootstepData>(allFootsteps);
+        Debug.Log($"Saved {savedFootsteps.Count} footsteps for USD export");
+    }
+
+    [ContextMenu("Load Footsteps from JSON")]
+    public void LoadFootstepsFromJSON()
+    {
+        string path = Path.Combine(Application.dataPath, "../footsteps_export.json");
+
+        if (!File.Exists(path))
+        {
+            Debug.LogError("No JSON file found at: " + path);
+            return;
+        }
+
+        string json = File.ReadAllText(path);
+        FootstepDataWrapper wrapper = JsonUtility.FromJson<FootstepDataWrapper>(json);
+
+        savedFootsteps = wrapper.footsteps;
+        Debug.Log($"Loaded {savedFootsteps.Count} footsteps from JSON for USD export");
+    }
+
+    public List<FootstepData> GetFootstepsForExport()
+    {
+        if (Application.isPlaying && allFootsteps.Count > 0)
+        {
+            return allFootsteps;
+        }
+        else
+        {
+            return savedFootsteps;
+        }
     }
 }

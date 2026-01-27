@@ -8,7 +8,7 @@ public class EmergencyAgent : AgentController
     public void Initialize(HospitalRoom trauma)
     {
         agentType = "emergency";
-        moveSpeed = 30f; // Fast movement
+        moveSpeed = 45f; // Fast movement
         traumaBay = trauma;
     }
 

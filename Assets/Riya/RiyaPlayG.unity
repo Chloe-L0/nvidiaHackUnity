@@ -231,54 +231,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26142570}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &214898054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 214898055}
-  - component: {fileID: 214898056}
-  m_Layer: 0
-  m_Name: Test
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &214898055
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214898054}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 172.46504, y: 0.00026, z: -23.78049}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &214898056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214898054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 473cae28ad1fcc847a115863d8a02cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TestSingleAgent
-  patientPrefab: {fileID: 4779716744513186465, guid: 7be629d4ef56a2f41a6facb6d1a03553, type: 3}
-  waitingRoom: {fileID: 847226900}
-  patientRoom: {fileID: 1958575912}
-  spawnPoint: {fileID: 1202165356}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +534,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483404595}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b86690dc4d161f4897992eead478877, type: 3}
   m_Name: 
@@ -597,9 +549,9 @@ MonoBehaviour:
   - {fileID: 2124535888}
   - {fileID: 847226900}
   - {fileID: 1958575912}
-  patientSpawnInterval: 5
-  emergencySpawnInterval: 15
-  visitorSpawnInterval: 8
+  patientSpawnInterval: 3
+  emergencySpawnInterval: 10
+  visitorSpawnInterval: 5
 --- !u!1001 &511302976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -678,6 +630,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b9e3683c5c55ace4596e6864f4b35681, type: 3}
   m_PrefabInstance: {fileID: 511302976}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &560975498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560975499}
+  - component: {fileID: 560975500}
+  m_Layer: 0
+  m_Name: HospitaUSDexporter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560975499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560975498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 370.01285, y: 0.00021, z: 355.74936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560975500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560975498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26da2380cc8e745a74d816302370a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HospitalUSDExporter
+  exportFileName: hospital_layout
+  exportPath: Exports
+  rooms:
+  - {fileID: 1314050794}
+  - {fileID: 2124535888}
+  - {fileID: 847226900}
+  - {fileID: 1958575912}
+  floorNavMesh: {fileID: 1264204904}
+  footstepRecorder: {fileID: 996629024}
 --- !u!1 &618593136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,81 +1228,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b9e3683c5c55ace4596e6864f4b35681, type: 3}
   m_PrefabInstance: {fileID: 922181582}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &930861662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930861663}
-  - component: {fileID: 930861664}
-  m_Layer: 0
-  m_Name: HospitalUSDExporter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930861663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930861662}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3775, y: -0, z: -2.55085}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930861664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930861662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a26da2380cc8e745a74d816302370a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HospitalUSDExporter
-  exportFolder: Exports
-  fileName: hospital_layout
-  rooms:
-  - id: 0
-    roomType: Entrance
-    position: {x: 0, y: -20}
-    size: {x: 8, y: 6}
-    height: 3
-    capacity: 50
-    function: Main entrance
-  - id: 1
-    roomType: Waiting_Area
-    position: {x: -10, y: -10}
-    size: {x: 12, y: 10}
-    height: 3
-    capacity: 30
-    function: Patient waiting
-  - id: 2
-    roomType: ER_Room
-    position: {x: 15, y: -5}
-    size: {x: 8, y: 8}
-    height: 3
-    capacity: 10
-    function: Emergency care
-  - id: 3
-    roomType: Patient_Room
-    position: {x: -5, y: 10}
-    size: {x: 6, y: 5}
-    height: 3
-    capacity: 2
-    function: Patient care
 --- !u!1 &996629023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2666,7 +2596,6 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 930861663}
   - {fileID: 2027704851}
   - {fileID: 1264204909}
   - {fileID: 1314050792}
@@ -2676,4 +2605,4 @@ SceneRoots:
   - {fileID: 996629025}
   - {fileID: 483404596}
   - {fileID: 1202165356}
-  - {fileID: 214898055}
+  - {fileID: 560975499}
