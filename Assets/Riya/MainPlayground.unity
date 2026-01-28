@@ -1789,10 +1789,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b86690dc4d161f4897992eead478877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentSpawner
-  patientPrefab: {fileID: 4779716744513186465, guid: 7be629d4ef56a2f41a6facb6d1a03553, type: 3}
-  emergencyPrefab: {fileID: 423466339660931683, guid: c309eef7ffbad6d478f7f659fc8215a3, type: 3}
-  staffPrefab: {fileID: 1496872113583433251, guid: 86911e4ca6ed4a5479d850cf7a41d0b8, type: 3}
-  visitorPrefab: {fileID: 9144004537149141679, guid: 5123eb96148b2c94388a464cd38c12ef, type: 3}
+  patientPrefab: {fileID: 2711405089921262957, guid: ed2185b2cc7969c48a6f6e7cc1175fe4, type: 3}
+  emergencyPrefab: {fileID: 2711405089921262957, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+  staffPrefab: {fileID: 2711405089921262957, guid: 24d563ea03c75394a9232c46ff6b9025, type: 3}
+  visitorPrefab: {fileID: 2711405089921262957, guid: 5ddd58cda3ba2dc45927b70b6698f02d, type: 3}
   spawnPoint: {fileID: 433208189}
   allRooms:
   - {fileID: 1888491001}
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   - {fileID: 1567768484}
   - {fileID: 1116944517}
   spawnInterval: 3
-  maxAgents: 50
+  maxAgents: 500
 --- !u!1001 &520054385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   floorPlan: {fileID: 2800000, guid: d831cdf4cdcc99f42909463cbb182744, type: 3}
   visualFloor: {fileID: 16267597}
   wallPrefab: {fileID: 661526705015375096}
-  wallHeight: 100
+  wallHeight: 50
   delayBeforeExtrusion: 2
   extrusionDuration: 3
   extrusionCurve:
@@ -5617,6 +5617,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a08b4dca1d2cb34f8c5e2b782f8f537, type: 3}
+--- !u!1 &1896104256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2711405089921262957, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+  m_PrefabInstance: {fileID: 5054241627524928686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896104261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896104256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8262ac649f25a4898aa1819766f148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EmergencyAgent
+  agentType: 
+  agentID: 
+  navAgent: {fileID: 0}
+  moveSpeed: 1
 --- !u!1001 &1906789916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6432,6 +6453,66 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8416203360050617911, guid: d0b10e35fd10d474f9a884c495acdc82, type: 3}
   m_PrefabInstance: {fileID: 661526705015375095}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5054241627524928686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2711405089921262957, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_Name
+      value: Emergency Patient
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359397617512162252, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2711405089921262957, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896104261}
+  m_SourcePrefab: {fileID: 100100000, guid: 281843c9c6c706a4bb6d254427b6f22d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6440,6 +6521,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 16267601}
+  - {fileID: 5054241627524928686}
   - {fileID: 730784599}
   - {fileID: 1535573866}
   - {fileID: 2084756006}
