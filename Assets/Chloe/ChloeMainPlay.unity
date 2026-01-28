@@ -802,10 +802,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50aefa85acb192c4082c0acc06e7b154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NavMeshBaker
+  floorObject: {fileID: 16267597}
   floorCenter: {x: 0, y: 0, z: 0}
   floorSize: {x: 2100, y: 1100}
   agentRadius: 5
   agentHeight: 20
+  agentSlope: 45
+  agentClimb: 4
   navMeshBaked: 0
 --- !u!4 &1535573866
 Transform:
@@ -925,10 +928,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1677882602480013402, guid: d0b10e35fd10d474f9a884c495acdc82, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ca10788e6d5cd824692877f13040a565, type: 2}
     - target: {fileID: 8416203360050617911, guid: d0b10e35fd10d474f9a884c495acdc82, type: 3}
       propertyPath: m_Name
       value: Wall cube
