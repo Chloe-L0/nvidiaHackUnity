@@ -28,48 +28,74 @@ public class FuturisticWallExtruder : MonoBehaviour
     private float pixelToWorld;
     private Vector3 floorBottomLeft;
     private float floorY;
+    private Material wallMaterial; // Cache the material
 
     public delegate void WallsCompleteCallback();
     public event WallsCompleteCallback OnWallsComplete;
 
     void Start()
     {
+        // Create material ONCE at start
+        CreateWallMaterial();
         StartCoroutine(GenerateWithAnimation());
+    }
+
+    void CreateWallMaterial()
+    {
+        // Try Standard shader first
+        Shader shader = Shader.Find("Standard");
+
+        if (shader == null)
+        {
+            Debug.LogWarning("[WallExtruder] Standard shader not found, using Unlit/Color");
+            shader = Shader.Find("Unlit/Color");
+        }
+
+        if (shader == null)
+        {
+            Debug.LogError("[WallExtruder] No shader found!");
+            return;
+        }
+
+        wallMaterial = new Material(shader);
+
+        // Base color
+        wallMaterial.color = new Color(0.2f, 0.3f, 0.4f);
+
+        // Try to enable emission (only if Standard shader)
+        if (shader.name == "Standard")
+        {
+            wallMaterial.EnableKeyword("_EMISSION");
+            wallMaterial.SetColor("_EmissionColor", wallGlowColor * glowIntensity);
+            wallMaterial.SetFloat("_Metallic", 0.7f);
+            wallMaterial.SetFloat("_Glossiness", 0.8f);
+        }
+
+        Debug.Log($"[WallExtruder] Created material using shader: {shader.name}");
     }
 
     IEnumerator GenerateWithAnimation()
     {
-        // Validation
-        if (floorPlan == null)
+        if (floorPlan == null || wallPrefab == null || visualFloor == null)
         {
-            Debug.LogError("[WallExtruder] No floor plan texture assigned!");
+            Debug.LogError("[WallExtruder] Missing required references!");
             yield break;
         }
 
-        if (wallPrefab == null)
+        if (wallMaterial == null)
         {
-            Debug.LogError("[WallExtruder] No wall prefab assigned!");
+            Debug.LogError("[WallExtruder] Failed to create wall material!");
             yield break;
         }
 
-        if (visualFloor == null)
-        {
-            Debug.LogError("[WallExtruder] No visual floor assigned!");
-            yield break;
-        }
-
-        // Calculate floor dimensions and scale
         CalculateFloorMapping();
 
         Debug.Log($"[WallExtruder] Waiting {delayBeforeExtrusion}s before wall generation...");
         yield return new WaitForSeconds(delayBeforeExtrusion);
 
         Debug.Log("[WallExtruder] Generating walls...");
-
-        // Generate walls
         GenerateWalls();
 
-        // Animate extrusion
         yield return StartCoroutine(AnimateWallExtrusion());
 
         wallsGenerated = true;
@@ -80,33 +106,17 @@ public class FuturisticWallExtruder : MonoBehaviour
 
     void CalculateFloorMapping()
     {
-        // Get floor transform data
         Vector3 floorPos = visualFloor.transform.position;
         Vector3 floorScale = visualFloor.transform.localScale;
 
-        // Unity plane is 10x10 units at scale 1
         float floorWorldWidth = floorScale.x * 10f;
         float floorWorldDepth = floorScale.z * 10f;
 
-        // Use exact scale (don't use Min - causes offset)
-        // We want texture to stretch to match floor exactly
         float scaleX = floorWorldWidth / floorPlan.width;
         float scaleZ = floorWorldDepth / floorPlan.height;
 
-        // Store as a single value - use X scale for horizontal, Z scale for depth
-        // But they should be the same if floor aspect matches texture aspect
-        pixelToWorld = scaleX; // Use X scale
+        pixelToWorld = scaleX;
 
-        // Verify aspect ratio match
-        float textureAspect = (float)floorPlan.width / floorPlan.height;
-        float floorAspect = floorWorldWidth / floorWorldDepth;
-
-        if (Mathf.Abs(textureAspect - floorAspect) > 0.01f)
-        {
-            Debug.LogWarning($"[WallExtruder] Aspect ratio mismatch! Texture: {textureAspect:F2}, Floor: {floorAspect:F2}");
-        }
-
-        // Calculate bottom-left corner of floor in world space
         floorBottomLeft = new Vector3(
             floorPos.x - floorWorldWidth * 0.5f,
             floorPos.y,
@@ -115,10 +125,9 @@ public class FuturisticWallExtruder : MonoBehaviour
 
         floorY = floorPos.y;
 
-        Debug.Log($"[WallExtruder] Floor: pos={floorPos}, size={floorWorldWidth:F1} x {floorWorldDepth:F1}");
+        Debug.Log($"[WallExtruder] Floor: {floorWorldWidth:F1} x {floorWorldDepth:F1}");
         Debug.Log($"[WallExtruder] Texture: {floorPlan.width} x {floorPlan.height}");
-        Debug.Log($"[WallExtruder] Scale X: {scaleX:F4}, Scale Z: {scaleZ:F4}");
-        Debug.Log($"[WallExtruder] Bottom-left: {floorBottomLeft}");
+        Debug.Log($"[WallExtruder] Scale: {scaleX:F4}");
     }
 
     void GenerateWalls()
@@ -127,7 +136,6 @@ public class FuturisticWallExtruder : MonoBehaviour
         int height = floorPlan.height;
         Color32[] pixels = floorPlan.GetPixels32();
 
-        // Build wall map (black pixels = walls)
         bool[,] wallMap = new bool[width, height];
         for (int y = 0; y < height; y++)
         {
@@ -138,28 +146,22 @@ public class FuturisticWallExtruder : MonoBehaviour
             }
         }
 
-        // Generate horizontal wall segments
         for (int y = 0; y < height; y++)
         {
             int x = 0;
             while (x < width)
             {
-                // Skip non-wall pixels
                 if (!wallMap[x, y])
                 {
                     x++;
                     continue;
                 }
 
-                // Find wall segment length
                 int startX = x;
                 while (x < width && wallMap[x, y])
-                {
                     x++;
-                }
-                int length = x - startX;
 
-                // Create wall segment
+                int length = x - startX;
                 CreateWallSegment(startX, y, length);
             }
         }
@@ -169,7 +171,6 @@ public class FuturisticWallExtruder : MonoBehaviour
 
     void CreateWallSegment(int startX, int textureY, int length)
     {
-        // Calculate pixel-to-world scale for each axis separately
         Vector3 floorScale = visualFloor.transform.localScale;
         float floorWorldWidth = floorScale.x * 10f;
         float floorWorldDepth = floorScale.z * 10f;
@@ -177,27 +178,25 @@ public class FuturisticWallExtruder : MonoBehaviour
         float scaleX = floorWorldWidth / floorPlan.width;
         float scaleZ = floorWorldDepth / floorPlan.height;
 
-        // Convert texture coordinates to world coordinates
-        // Flip X axis
         float worldX = floorBottomLeft.x + (floorPlan.width - startX - length * 0.5f) * scaleX;
-        // Flip Y axis (texture Y → world Z)
         float worldZ = floorBottomLeft.z + (floorPlan.height - 1 - textureY) * scaleZ;
 
-        Vector3 position = new Vector3(
-            worldX,
-            floorY + 0.5f,
-            worldZ
-        );
+        Vector3 position = new Vector3(worldX, floorY + 0.5f, worldZ);
 
         GameObject wall = Instantiate(wallPrefab, position, Quaternion.identity, transform);
+        wall.transform.localScale = new Vector3(length * scaleX, 1f, scaleZ);
 
-        wall.transform.localScale = new Vector3(
-            length * scaleX,  // Use X scale for width
-            1f,
-            scaleZ            // Use Z scale for depth
-        );
+        // Apply material IMMEDIATELY
+        MeshRenderer renderer = wall.GetComponent<MeshRenderer>();
+        if (renderer != null && wallMaterial != null)
+        {
+            renderer.material = wallMaterial;
+        }
+        else
+        {
+            Debug.LogError("[WallExtruder] Wall has no renderer or material is null!");
+        }
 
-        ApplyFuturisticMaterial(wall);
         walls.Add(wall);
     }
 
@@ -206,8 +205,6 @@ public class FuturisticWallExtruder : MonoBehaviour
         if (walls.Count == 0) yield break;
 
         float elapsed = 0f;
-
-        // Store start and target values for each wall
         Vector3[] startScales = new Vector3[walls.Count];
         Vector3[] targetScales = new Vector3[walls.Count];
         Vector3[] startPositions = new Vector3[walls.Count];
@@ -231,7 +228,6 @@ public class FuturisticWallExtruder : MonoBehaviour
             );
         }
 
-        // Animate
         while (elapsed < extrusionDuration)
         {
             elapsed += Time.deltaTime;
@@ -249,7 +245,6 @@ public class FuturisticWallExtruder : MonoBehaviour
             yield return null;
         }
 
-        // Ensure final values
         for (int i = 0; i < walls.Count; i++)
         {
             if (walls[i] != null)
@@ -258,25 +253,6 @@ public class FuturisticWallExtruder : MonoBehaviour
                 walls[i].transform.position = targetPositions[i];
             }
         }
-    }
-
-    void ApplyFuturisticMaterial(GameObject wall)
-    {
-        MeshRenderer renderer = wall.GetComponent<MeshRenderer>();
-        if (renderer == null) return;
-
-        Material mat = new Material(Shader.Find("Standard"));
-        mat.color = new Color(0.2f, 0.3f, 0.4f);
-
-        // Emission glow
-        mat.EnableKeyword("_EMISSION");
-        mat.SetColor("_EmissionColor", wallGlowColor * glowIntensity);
-
-        // Metallic look
-        mat.SetFloat("_Metallic", 0.7f);
-        mat.SetFloat("_Glossiness", 0.8f);
-
-        renderer.material = mat;
     }
 
     public List<GameObject> GetWalls()
