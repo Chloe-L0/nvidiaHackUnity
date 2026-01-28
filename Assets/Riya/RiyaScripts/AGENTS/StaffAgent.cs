@@ -2,16 +2,15 @@ using UnityEngine;
 
 public class StaffAgent : AgentController
 {
-    private HospitalRoom[] patrolRooms;
+    private HospitalRoom[] accessibleRooms;
     private int currentRoomIndex = 0;
     private float dwellTimer;
-    private bool isWaiting = false;
 
     public void Initialize(HospitalRoom[] rooms)
     {
         agentType = "staff";
-        moveSpeed = 35f; // Fast movement
-        patrolRooms = rooms;
+        moveSpeed = 35f;
+        accessibleRooms = rooms;
     }
 
     protected override void Start()
@@ -24,30 +23,28 @@ public class StaffAgent : AgentController
     {
         base.Update();
 
-        if (!isWaiting && ReachedDestination())
+        if (ReachedDestination() && dwellTimer == 0)
         {
-            // Reached room - wait briefly then move to next
-            isWaiting = true;
-            dwellTimer = Time.time + Random.Range(3f, 7f);
+            dwellTimer = Time.time + Random.Range(5f, 10f);
         }
 
-        if (isWaiting && Time.time > dwellTimer)
+        if (dwellTimer > 0 && Time.time > dwellTimer)
         {
-            isWaiting = false;
+            dwellTimer = 0;
             MoveToNextRoom();
         }
     }
 
     void MoveToNextRoom()
     {
-        if (patrolRooms == null || patrolRooms.Length == 0) return;
+        if (accessibleRooms == null || accessibleRooms.Length == 0) return;
 
-        currentRoomIndex = (currentRoomIndex + 1) % patrolRooms.Length;
+        currentRoomIndex = Random.Range(0, accessibleRooms.Length);
 
-        if (patrolRooms[currentRoomIndex] != null &&
-            patrolRooms[currentRoomIndex].entryPoints.Length > 0)
+        if (accessibleRooms[currentRoomIndex] != null &&
+            accessibleRooms[currentRoomIndex].entryPoint != null)
         {
-            MoveTo(patrolRooms[currentRoomIndex].entryPoints[0].position);
+            MoveTo(accessibleRooms[currentRoomIndex].entryPoint.position);
         }
     }
 }

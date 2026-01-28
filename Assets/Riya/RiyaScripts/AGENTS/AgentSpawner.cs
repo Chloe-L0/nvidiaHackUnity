@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class AgentSpawner : MonoBehaviour
@@ -9,111 +10,122 @@ public class AgentSpawner : MonoBehaviour
     public GameObject visitorPrefab;
 
     [Header("Spawn Settings")]
-    public Transform spawnPoint; // Entrance location
+    public Transform spawnPoint;
     public HospitalRoom[] allRooms;
 
     [Header("Spawn Rates")]
-    public float patientSpawnInterval = 5f;
-    public float emergencySpawnInterval = 15f;
-    public float visitorSpawnInterval = 8f;
+    public float spawnInterval = 3f;
+    public int maxAgents = 50;
 
-    private float nextPatientSpawn;
-    private float nextEmergencySpawn;
-    private float nextVisitorSpawn;
-
-    void Start()
-    {
-        // Spawn 2 staff immediately (they patrol continuously)
-        SpawnStaff();
-        SpawnStaff();
-    }
+    private float nextSpawnTime;
+    private int spawnedCount = 0;
 
     void Update()
     {
-        if (Time.time > nextPatientSpawn)
-        {
-            SpawnPatient();
-            nextPatientSpawn = Time.time + patientSpawnInterval;
-        }
+        if (spawnedCount >= maxAgents) return;
 
-        if (Time.time > nextEmergencySpawn)
+        if (Time.time > nextSpawnTime)
         {
-            SpawnEmergency();
-            nextEmergencySpawn = Time.time + emergencySpawnInterval;
+            SpawnRandomAgent();
+            nextSpawnTime = Time.time + spawnInterval;
         }
+    }
 
-        if (Time.time > nextVisitorSpawn)
-        {
-            SpawnVisitor();
-            nextVisitorSpawn = Time.time + visitorSpawnInterval;
-        }
+    void SpawnRandomAgent()
+    {
+        float rand = Random.value;
+
+        if (rand < 0.4f) SpawnPatient();
+        else if (rand < 0.65f) SpawnVisitor();
+        else if (rand < 0.85f) SpawnStaff();
+        else SpawnEmergency();
+
+        spawnedCount++;
     }
 
     void SpawnPatient()
     {
         if (patientPrefab == null) return;
-
         GameObject agent = Instantiate(patientPrefab, spawnPoint.position, Quaternion.identity);
-        HospitalRoom waiting = GetRoomByType("Waiting Area");
-        HospitalRoom patient = GetRoomByType("Patient Room");
 
-        PatientAgent patientAgent = agent.GetComponent<PatientAgent>();
-        if (patientAgent != null)
+        PatientAgent pa = agent.GetComponent<PatientAgent>();
+        if (pa != null)
         {
-            patientAgent.Initialize(waiting, patient);
+            HospitalRoom targetRoom = GetRandomRoomForAgent("patient");
+            pa.Initialize(targetRoom);
         }
     }
 
     void SpawnEmergency()
     {
         if (emergencyPrefab == null) return;
-
         GameObject agent = Instantiate(emergencyPrefab, spawnPoint.position, Quaternion.identity);
-        HospitalRoom trauma = GetRoomByType("Trauma Bay");
 
-        EmergencyAgent emergencyAgent = agent.GetComponent<EmergencyAgent>();
-        if (emergencyAgent != null)
+        EmergencyAgent ea = agent.GetComponent<EmergencyAgent>();
+        if (ea != null)
         {
-            emergencyAgent.Initialize(trauma);
+            HospitalRoom targetRoom = GetRandomRoomForAgent("emergency");
+            ea.Initialize(targetRoom);
         }
     }
 
     void SpawnStaff()
     {
         if (staffPrefab == null) return;
-
         GameObject agent = Instantiate(staffPrefab, spawnPoint.position, Quaternion.identity);
-        StaffAgent staffAgent = agent.GetComponent<StaffAgent>();
-        if (staffAgent != null)
+
+        StaffAgent sa = agent.GetComponent<StaffAgent>();
+        if (sa != null)
         {
-            staffAgent.Initialize(allRooms);
+            HospitalRoom[] accessibleRooms = GetAllRoomsForAgent("staff");
+            sa.Initialize(accessibleRooms);
         }
     }
 
     void SpawnVisitor()
     {
         if (visitorPrefab == null) return;
-
         GameObject agent = Instantiate(visitorPrefab, spawnPoint.position, Quaternion.identity);
-        HospitalRoom waiting = GetRoomByType("Waiting Area");
-        HospitalRoom patient = GetRoomByType("Patient Room");
 
-        VisitorAgent visitorAgent = agent.GetComponent<VisitorAgent>();
-        if (visitorAgent != null)
+        VisitorAgent va = agent.GetComponent<VisitorAgent>();
+        if (va != null)
         {
-            visitorAgent.Initialize(waiting, patient);
+            HospitalRoom targetRoom = GetRandomRoomForAgent("visitor");
+            va.Initialize(targetRoom);
         }
     }
 
-    HospitalRoom GetRoomByType(string type)
+    HospitalRoom GetRandomRoomForAgent(string agentType)
     {
+        List<HospitalRoom> validRooms = new List<HospitalRoom>();
+
         foreach (HospitalRoom room in allRooms)
         {
-            if (room != null && room.roomType == type)
+            if (room != null && room.CanAgentEnter(agentType))
             {
-                return room;
+                validRooms.Add(room);
             }
         }
+
+        if (validRooms.Count > 0)
+            return validRooms[Random.Range(0, validRooms.Count)];
+
+        Debug.LogWarning($"[AgentSpawner] No valid rooms found for {agentType}");
         return null;
+    }
+
+    HospitalRoom[] GetAllRoomsForAgent(string agentType)
+    {
+        List<HospitalRoom> validRooms = new List<HospitalRoom>();
+
+        foreach (HospitalRoom room in allRooms)
+        {
+            if (room != null && room.CanAgentEnter(agentType))
+            {
+                validRooms.Add(room);
+            }
+        }
+
+        return validRooms.ToArray();
     }
 }

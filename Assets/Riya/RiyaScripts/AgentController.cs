@@ -61,11 +61,15 @@ public class AgentController : MonoBehaviour
 
     public void MoveTo(Vector3 destination)
     {
-        navAgent.SetDestination(destination);
+        if (navAgent != null && navAgent.isOnNavMesh)
+        {
+            navAgent.SetDestination(destination);
+        }
     }
 
     protected bool ReachedDestination()
     {
+        if (!navAgent.isOnNavMesh) return false;
         return !navAgent.pathPending && navAgent.remainingDistance < 0.5f;
     }
 }

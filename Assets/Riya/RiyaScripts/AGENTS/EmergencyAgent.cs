@@ -2,24 +2,23 @@ using UnityEngine;
 
 public class EmergencyAgent : AgentController
 {
-    private HospitalRoom traumaBay;
+    private HospitalRoom targetRoom;
     private float exitTimer;
 
-    public void Initialize(HospitalRoom trauma)
+    public void Initialize(HospitalRoom room)
     {
         agentType = "emergency";
-        moveSpeed = 45f; // Fast movement
-        traumaBay = trauma;
+        moveSpeed = 45f;
+        targetRoom = room;
     }
 
     protected override void Start()
     {
         base.Start();
 
-        // Go DIRECTLY to Trauma Bay (skip waiting)
-        if (traumaBay != null && traumaBay.entryPoints.Length > 0)
+        if (targetRoom != null && targetRoom.entryPoint != null)
         {
-            MoveTo(traumaBay.entryPoints[0].position);
+            MoveTo(targetRoom.entryPoint.position);
         }
     }
 
@@ -29,7 +28,6 @@ public class EmergencyAgent : AgentController
 
         if (ReachedDestination() && exitTimer == 0)
         {
-            // Arrived at Trauma Bay - stay briefly then exit
             exitTimer = Time.time + Random.Range(10f, 20f);
         }
 

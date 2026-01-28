@@ -2,30 +2,23 @@ using UnityEngine;
 
 public class VisitorAgent : AgentController
 {
-    private enum State { ToWaiting, Waiting, ToPatientRoom, Visiting, Exiting }
-    private State currentState = State.ToWaiting;
+    private HospitalRoom targetRoom;
+    private float exitTimer;
 
-    private HospitalRoom waitingArea;
-    private HospitalRoom patientRoom;
-    private float stateTimer;
-
-    public void Initialize(HospitalRoom waiting, HospitalRoom patient)
+    public void Initialize(HospitalRoom room)
     {
         agentType = "visitor";
-        moveSpeed = 25f; // Normal movement
-        waitingArea = waiting;
-        patientRoom = patient;
+        moveSpeed = 25f;
+        targetRoom = room;
     }
 
     protected override void Start()
     {
         base.Start();
 
-        // Start: Go to waiting area
-        if (waitingArea != null && waitingArea.entryPoints.Length > 0)
+        if (targetRoom != null && targetRoom.entryPoint != null)
         {
-            MoveTo(waitingArea.entryPoints[0].position);
-            currentState = State.ToWaiting;
+            MoveTo(targetRoom.entryPoint.position);
         }
     }
 
@@ -33,41 +26,14 @@ public class VisitorAgent : AgentController
     {
         base.Update();
 
-        switch (currentState)
+        if (ReachedDestination() && exitTimer == 0)
         {
-            case State.ToWaiting:
-                if (ReachedDestination())
-                {
-                    currentState = State.Waiting;
-                    stateTimer = Time.time + Random.Range(3f, 8f); // Wait 3-8 seconds
-                }
-                break;
+            exitTimer = Time.time + Random.Range(15f, 30f);
+        }
 
-            case State.Waiting:
-                if (Time.time > stateTimer)
-                {
-                    if (patientRoom != null && patientRoom.entryPoints.Length > 0)
-                    {
-                        MoveTo(patientRoom.entryPoints[0].position);
-                        currentState = State.ToPatientRoom;
-                    }
-                }
-                break;
-
-            case State.ToPatientRoom:
-                if (ReachedDestination())
-                {
-                    currentState = State.Visiting;
-                    stateTimer = Time.time + Random.Range(20f, 40f); // Visit 20-40 seconds
-                }
-                break;
-
-            case State.Visiting:
-                if (Time.time > stateTimer)
-                {
-                    Destroy(gameObject); // Exit simulation
-                }
-                break;
+        if (exitTimer > 0 && Time.time > exitTimer)
+        {
+            Destroy(gameObject);
         }
     }
 }
