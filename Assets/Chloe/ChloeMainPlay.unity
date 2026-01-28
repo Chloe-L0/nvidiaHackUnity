@@ -635,7 +635,7 @@ MonoBehaviour:
   visualFloor: {fileID: 16267597}
   wallPrefab: {fileID: 661526705015375096}
   wallHeight: 100
-  delayBeforeExtrusion: 2
+  delayBeforeExtrusion: 0
   extrusionDuration: 3
   extrusionCurve:
     serializedVersion: 2
@@ -661,8 +661,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  wallGlowColor: {r: 0, g: 0.20754719, b: 0.19789383, a: 0.74509805}
-  glowIntensity: 2
   wallsGenerated: 0
 --- !u!4 &730784599
 Transform:
@@ -930,7 +928,7 @@ PrefabInstance:
     - target: {fileID: 1677882602480013402, guid: d0b10e35fd10d474f9a884c495acdc82, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: ca10788e6d5cd824692877f13040a565, type: 2}
     - target: {fileID: 8416203360050617911, guid: d0b10e35fd10d474f9a884c495acdc82, type: 3}
       propertyPath: m_Name
       value: Wall cube
