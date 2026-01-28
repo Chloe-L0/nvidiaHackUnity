@@ -632,9 +632,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FuturisticWallExtruder
   floorPlan: {fileID: 2800000, guid: d831cdf4cdcc99f42909463cbb182744, type: 3}
-  pixelToWorld: 1
-  wallHeight: 100
+  visualFloor: {fileID: 16267597}
   wallPrefab: {fileID: 661526705015375096}
+  wallHeight: 100
   delayBeforeExtrusion: 2
   extrusionDuration: 3
   extrusionCurve:
@@ -661,7 +661,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  wallGlowColor: {r: 1, g: 0, b: 0.555254, a: 1}
+  wallGlowColor: {r: 0, g: 0.20754719, b: 0.19789383, a: 0.74509805}
   glowIntensity: 2
   wallsGenerated: 0
 --- !u!4 &730784599
